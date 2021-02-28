@@ -1,6 +1,6 @@
 # Loss Function And Gradient Descent
 
-To understand how neural network workes, we must understand loss function and gradient descent. The reason why architecture can predicts targets correctly is because architecture captures the most important features of targets. Architecture is combined by parameters, the more accurate the parameters, the more accurate the model.
+To understand how neural network works, we must understand loss function and gradient descent. The reason why architecture can predicts targets correctly is because architecture captures the most important features of targets. Architecture is combined by parameters, the more accurate the parameters, the more accurate the model.
 
 First, we initialize parameters randomly, then calculate predictions. At first predictions are not good, so we need to update parameters. Since we have predictions and targets, we can calculate the loss to measure how good the architecture performs. We just need to decrease the loss to achive a better architecture. Amazing thins is gradient descent can do this. The function is parameters = parameters - gradient descent * learning rate. Wonderful thing is that gradient descent leads the direction to decrease loss. If gradient descent is positive, parameter needs to decrease to move to minum loss, if gradient descent is negative, parameter needs to increase to move to minum loss. To speed up this process, we multiply gradient descent with a learning rate. With an appropriate learning rate, we can update parameter fast and accurate.
 
